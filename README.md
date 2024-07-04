@@ -4,10 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 ## Aspiring Web Developer with a Passion for Problem-Solving
 
 # 💫 About Me:
-🔭 I’m currently Studying Computer Science and Engineering<br>🌱 I’m currently learning MERN STACK<br>📫 How to reach me **kishanrathod967956@gmail.com**<br>
-
-* 🌍  I'm based in India
-* ✉️  You can contact me at [kishanrathod967956@gmail.com](mailto:kishanrathod967956@gmail.com)
+🔭 I’m currently Studying Computer Science and Engineering<br>🌱 I’m currently learning MERN STACK<br>✉️  You can contact me at [kishanrathod967956@gmail.com](mailto:kishanrathod967956@gmail.com)
 
 <a href="https://www.github.com/Kishan931644" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/Kishan931644?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
