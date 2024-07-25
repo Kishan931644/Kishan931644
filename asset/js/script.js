@@ -29,8 +29,34 @@ function toggleTheme(img) {
 if (window.matchMedia) {
     // Check if the user prefers a light or dark theme
     const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    console.log(prefersDarkMode);
     if (prefersDarkMode) {
         document.querySelector(".colorMode").click();
     }
+}
+
+
+function sendEmail(e) {
+    e.preventDefault();
+    var templateParams = {
+        name: document.querySelector("#name").value,
+        email: document.querySelector("#email").value,
+        message: document.querySelector("#message").value,
+    };
+
+    emailjs.send('service_plothfo', 'template_svenhqi', templateParams).then(
+        (response) => {
+            // console.log('SUCCESS!', response.status, response.text);
+            showToast("Thanks For contacting..");
+        },
+        (error) => {
+            console.log('FAILED...', error);
+        },
+    );
+}
+
+function showToast(msg) {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    x.innerText = msg;
+    setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
 }

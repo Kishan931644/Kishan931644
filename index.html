@@ -168,7 +168,7 @@
     <!-- Contact Form -->
     <section id="contact" class="contact-container">
         <h1 class="sectionTitle">Contact</h1>
-        <form action="">
+        <form onsubmit="()=>{return false}">
             <div class="formGroup">
                 <label for="name" hidden>Name</label>
                 <input type="text" name="name" id="name" autocomplete="off" placeholder="Name" required />
@@ -181,13 +181,24 @@
                 <label for="message" hidden>Message</label>
                 <textarea name="message" id="message" placeholder="Message" required></textarea>
             </div>
-            <input class="hover btn" type="submit" value="Submit" />
+            <input class="hover btn" type="submit" onclick="sendEmail(event)" value="Submit" />
         </form>
     </section>
 
     <section id="footer" class="footer-container">
         <p>&copy; 2024 Kisan Rathod. <br /> All rights reserved.</p>
     </section>
+
+    <div id="snackbar"></div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "PBwwnDGquI1O2TWA8",
+            });
+        })();
+    </script>
     <script src="asset/js/script.js"></script>
 </body>
 
