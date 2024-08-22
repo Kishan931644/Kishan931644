@@ -74,4 +74,4 @@ src="https://img.shields.io/github/followers/Kishan931644?logo=github&style=for-
 <a href="https://github.com/Kishan931644" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kishan931644&langs_count=10&title_color=f97316&text_color=0f172a&icon_color=ef4444&bg_color=ffffff&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Kishan931644&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=Kishan931644&label=Views&color=12&icon=3&pretty=true)](https://visitcount.itsvg.in)
